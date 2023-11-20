@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("flower.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+table {
+  background-color: black;
+  border: 10px solid black;
+  height: 50vh;
+  border-radius: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12rem;
+}
+input[type="button"] {
+  width: 100%;
+  padding: 20px 40px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: black;
+  cursor: pointer;
+  transition: background-color 0.9s, color 0.9s;
+}
+
+input[type="text"] {
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: bolder;
+  border: 5px solid white;
+  border-radius: 1rem;
+  border-style: none;
+}
+
+.c input[type="button"] {
+  background-color: darkred;
+  color: black;
+}
+.bg input[type="button"] {
+  background-color: orange;
+}
+
+input[type="button"]:hover {
+  background-color: darkmagenta;
+  color: lightseagreen;
+}
+
+.bg input[type="button"]:hover {
+  background-color: gray;
+  color: black;
+}
